@@ -36,6 +36,9 @@ import {
 } from "./ui/dropdown-menu";
 import { Sheet, SheetTrigger } from "./ui/sheet";
 import AddOrder from "./AddOrder";
+import AddUser from "./AddUser";
+import AddCategory from "./AddCategory";
+import AddProduct from "./AddProduct";
 
 const items = [
   {
@@ -128,6 +131,7 @@ const AppSidebar = () => {
                         </Link>
                       </SidebarMenuButton>
                     </SheetTrigger>
+                    <AddProduct />
                   </Sheet>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -142,6 +146,7 @@ const AppSidebar = () => {
                         </Link>
                       </SidebarMenuButton>
                     </SheetTrigger>
+                    <AddCategory />
                   </Sheet>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -174,6 +179,7 @@ const AppSidebar = () => {
                         </Link>
                       </SidebarMenuButton>
                     </SheetTrigger>
+                    <AddUser />
                   </Sheet>
                 </SidebarMenuButton>
               </SidebarMenuItem>
